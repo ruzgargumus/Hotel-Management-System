@@ -8,6 +8,6 @@ import org.springframework.context.annotation.Import;
 @Import({ SqlConfig.class })
 public class Project {
   public static void main(String[] args) {
-    SpringApplication.run(Project.class, args);
+    SpringApplication.run(Project.class, args); //
   }
 }
